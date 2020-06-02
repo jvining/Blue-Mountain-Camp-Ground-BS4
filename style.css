@@ -4,6 +4,8 @@ Project URI: https://jvining.github.io/
 Description: 
 Author: Joshua Vining
 Author URI: https://github.com/jvining
+Video: denfran
+Video URI: https://pixabay.com/videos/clouds-sky-landscape-nature-30989/
 
 _color0 #344555
 _color1 #467799
@@ -67,6 +69,12 @@ body .navbar .navbar-nav .nav-item a {color:#fff; font-weight:700; font-family: 
 @media(max-width: 767px){#alert-bar{margin-top:9em; position:relative;}}
 @media(max-width:550px){#alert-bar{margin-top:8.25em; position:relative;}}
 
+/* Video Jumbotron */
+header.jumbotron {position:relative; overflow:hidden;}
+header.jumbotron .container {z-index:2;}
+header.jumbotron .video-background-overlay {background: rgba(0, 0, 0, .35); position:absolute; top:0; left:0; height:100%; width:100%; z-index:1;}
+header.jumbotron .video-container video {position:absolute; top:50%; left:50%; min-width:100%; min-height:100%; width:auto; height:auto; z-index:0; -ms-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -webkit-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%);}
+
 /* Section: Register CTA */
 #content-discount{background: url("img/natural-paper.png") center center repeat #344555!important; border-color:#344555; border-width:5px 0; border-style:solid;}
 
@@ -96,3 +104,6 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 /* Section: Gallery */
 #content-gallery{margin:4em 0; padding:3em; background-color: #344555; background-image: url("img/black-thread.png");}
   
+  
+
+ 
