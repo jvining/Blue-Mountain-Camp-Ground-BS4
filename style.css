@@ -44,7 +44,7 @@ body p, body ul, body ol, body li, body table, body address, body blockquote, bo
 @media(max-width:990px){.btn-xl {padding:.375rem .75rem; font-size:1rem; line-height:1.5; border-radius:.25rem; transition:.3s ease-in-out;}}
 
 /* Hero */
-body.front-page > header.jumbotron {min-height:70vh; margin-top:15em;}
+body.front-page > header.jumbotron {min-height:70vh; margin-top:14em;}
 body.sub-page > header.jumbotron {height:25vh; min-height:200px;}
 @media(max-width:990px){body.front-page > header.jumbotron {margin-top:14em;}}
 @media(max-width:767px){body.front-page > header.jumbotron {margin-top:0em;}}
