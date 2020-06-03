@@ -32,7 +32,8 @@ body p, body ul, body ol, body li, body table, body address, body blockquote, bo
 .fa-5x {font-size:5em;} .fa-6x {font-size:6em;} .fa-7x {font-size:7em;} 
 .fa-8x {font-size:8em;} .fa-9x {font-size:9em;} .fa-x {font-size:10em;}
  @media(max-width:990px){h1{font-size:2em!important;transition:.3s ease-in-out;} h2{font-size:1.5em!important;transition:.3s ease-in-out;} h3{font-size:1.25em!important;transition:.3s ease-in-out;} h4{font-size:1.15em!important;transition:.3s ease-in-out;} h5{font-size:1em!important;transition:.3s ease-in-out;} p, ul, ol, li, table, address, blockquote, cite{font-size:14px!important;line-height:1.5em!important; transition:.3s ease-in-out;}}
- 
+
+.text-decoration-none:hover{text-decoration:none!important;}
 .text-light {font-weight:300!important;}
 .text-normal{font-weight:400!important;}
 .text-bold {font-weight:700!important;}
@@ -46,8 +47,8 @@ body p, body ul, body ol, body li, body table, body address, body blockquote, bo
 /* Hero */
 body.front-page > header.jumbotron {min-height:70vh; margin-top:14em;}
 body.sub-page > header.jumbotron {height:25vh; min-height:200px;}
-@media(max-width:990px){body.front-page > header.jumbotron {margin-top:14em;}}
-@media(max-width:767px){body.front-page > header.jumbotron {margin-top:0em;}}
+@media(max-width:990px){body.front-page > header.jumbotron {margin-top:10em;}}
+@media(max-width:767px){body.front-page > header.jumbotron {margin-top:0;}}
 
 /* Contact Navigation */
 #contact-nav{background:#f0ead6;z-index: 9999;}
