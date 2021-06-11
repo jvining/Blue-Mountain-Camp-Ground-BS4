@@ -13,15 +13,9 @@ _color2 #68acce
 _color3 #f0ead6
 
 ------------------------------------------------------------ */
-body {background:#fbfbfb; color:#5f5f5f; transition:.3s ease-in-out;} 
+body {background:#fbfbfb; color:#5f5f5f; transition:.3s ease-in-out; min-width:350px;} 
 
 footer{background:#344555;}
- 
-/* Flex Utility */
-.row-eq-height > [class*="col-"] {display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;}
-.vbottom { display: flex; align-items: flex-end; flex-wrap: wrap;}
-.vcenter {display: flex; align-items: center; flex-wrap: wrap;}
-@media(max-width:990px) {.row-eq-height > [class*="col-"]{display:inherit;}}
 
 /* Typography */
 body h1, body h2, body h3, body h4, body h5 {color:#467799; font-weight:700; font-family: "Raleway", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
@@ -45,18 +39,18 @@ body p, body ul, body ol, body li, body table, body address, body blockquote, bo
 @media(max-width:990px){.btn-xl {padding:.375rem .75rem; font-size:1rem; line-height:1.5; border-radius:.25rem; transition:.3s ease-in-out;}}
 
 /* Hero */
-body.front-page > header.jumbotron {min-height:70vh; margin-top:14em;}
+body.front-page > header.jumbotron {min-height:80vh; margin-top: 9em;}
 body.sub-page > header.jumbotron {height:25vh; min-height:200px;}
 @media(max-width:990px){body.front-page > header.jumbotron {margin-top:10em;}}
 @media(max-width:767px){body.front-page > header.jumbotron {margin-top:0;}}
 
 /* Contact Navigation */
-#contact-nav{background:#f0ead6;z-index: 9999;}
-#contact-nav li {font-family: "Raleway", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"!important;}
+#contact-nav{background:#f0ead6; z-index:9999;}
+#contact-nav li {font-family:"Raleway", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"!important;}
 
 /* Primary Navigation */
 body .navbar {min-height:5em;margin-top:2.9em;padding:0;background:#344555!important;box-shadow:inset 0 -10px 0px -5px #467799!important;z-index: 9999;}
-body .navbar a.navbar-brand {margin-top: -.9em;}
+body .navbar a.navbar-brand {margin-top: -1em;}
 body .navbar a.navbar-brand img {width: 75%;}
 body .navbar .navbar-nav .nav-item:last-child a {margin:.25rem; padding:.25rem .75rem;}
 body .navbar .navbar-nav .nav-item a {color:#fff; font-weight:700; font-family: "Raleway", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
@@ -65,9 +59,9 @@ body .navbar .navbar-nav .nav-item a {color:#fff; font-weight:700; font-family: 
 @media(max-width:550px){body .navbar a.navbar-brand img {width: 55%;}}
  
 /* Alert Bar */
-#alert-bar{margin-top:10.5em;}
-@media(max-width:990px){#alert-bar{margin-top:8.25em;}}
-@media(max-width: 767px){#alert-bar{margin-top:9em; position:relative;}}
+#alert-bar{margin-top: 10.5em;}
+@media(max-width:990px){#alert-bar{margin-top:8em;}}
+@media(max-width:767px){#alert-bar{margin-top:9.25em; position:relative;}}
 @media(max-width:550px){#alert-bar{margin-top:8.25em; position:relative;}}
 
 /* Video Jumbotron */
@@ -82,7 +76,7 @@ header.jumbotron .video-container video {position:absolute; top:50%; left:50%; m
 /* Section: Testimonial Carousel */
 #content-testimonials {background: url("img/asfalt-light.png") repeat #344555; min-height:50vh}
 @media(max-width:990px){#content-testimonials {min-height:45vh}}
-@media(max-width:767px){#content-testimonials {min-height:40vh}}
+@media(max-width:768px){#content-testimonials {min-height:40vh}}
 @media(max-width:550px){#content-testimonials {min-height:30vh}}
 
 #content-testimonials blockquote p {font-family:'Raleway', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'!important;}
